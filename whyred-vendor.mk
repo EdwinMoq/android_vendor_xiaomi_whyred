@@ -1348,7 +1348,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.1 \
     WfdService \
     SoterService \
-    CneApp \
     FingerprintExtensionService \
     IWlanService \
     TimeService \
