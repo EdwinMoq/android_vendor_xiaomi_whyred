@@ -1338,29 +1338,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    libsdm-disp-vndapis \
-    libthermalclient \
     libplatformconfig \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
     com.quicinc.cne.constants@1.0 \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.constants@2.1 \
-    WfdService \
-    SoterService \
     FingerprintExtensionService \
-    IWlanService \
-    TimeService \
-    PowerOffAlarm \
     DeviceInfo \
-    QtiTelephonyService \
-    datastatusnotification \
     embms \
-    imssettings \
-    dpmserviceapp \
-    ims \
-    qcrilmsgtunnel \
-    WfdCommon \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_vendor.xiaomi.hardware.mlipay \
     vendor.qti.gnss@4.0-service
